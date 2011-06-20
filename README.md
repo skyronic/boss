@@ -42,6 +42,7 @@ VLC
 ```
 
 and an output might look like
+
 ```
 06/20/11 20:30:32 Firefox
 06/20/11 20:30:32 Firefox
