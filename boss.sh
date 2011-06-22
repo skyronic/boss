@@ -14,7 +14,7 @@ while [ true ]; do
         fi
         echo $TIMESTAMP, $WINNAME >> $BOSS_OUTDIR/raw;
         for rule in $RULES; do
-            echo $WINNAME | grep --silent -i $rule && echo $TIMESTAMP, $rule >> $BOSS_OUTDIR/tagged
+            echo $WINNAME | grep --silent -i $rule && echo $TIMESTAMP, $rule >> $BOSS_OUTDIR/tagged && break;
         done
     fi
 done

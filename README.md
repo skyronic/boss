@@ -55,6 +55,7 @@ and an output might look like
 
 There are two files created in `~/.cache/boss/output/` by default. "tagged" and
 "raw".
+
 * "raw" is the file containing raw window titles and timestamps. You are
   encouraged to write your own scripts to get reports using this file.
 * "tagged" is the file containing output based on the "rules" file.
